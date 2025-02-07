@@ -16,7 +16,8 @@
 #include <memory>
 #include "L1_twoSum/twoSum.h"
 #include "L3_lengthOfLongestSubstring/lengthOfLongestSubstring.h"
-#include "util/util.h"
+#include "L12_intToRoman/L12_intToRoman.h"
+#include "L13_romanToInt/L13_romanToInt.h"
 class test_factory {
 private:
     void buildSolution(string title) {
@@ -26,6 +27,12 @@ private:
         } else if (title == "L3") {
             std::shared_ptr<L3_lengthOfLongestSubstring> tmp1= std::make_shared<L3_lengthOfLongestSubstring>();
             solution_ = std::dynamic_pointer_cast<LeetcodeHashtable>(tmp1);
+        } else if (title == "L12") {
+            std::shared_ptr<L12_intToRoman> tmp2= std::make_shared<L12_intToRoman>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeHashtable>(tmp2);
+        } else if (title == "L13") {
+            std::shared_ptr<L13_romanToInt> tmp3= std::make_shared<L13_romanToInt>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeHashtable>(tmp3);
         }
     }
 public:
