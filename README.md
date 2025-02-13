@@ -10,3 +10,7 @@ LeetCode哈希表算法题的解题仓库
 [12. 整数转罗马数字](https://leetcode.cn/problems/integer-to-roman/?envType=problem-list-v2&envId=hash-table) : [L12_intToRoman](L12_intToRoman)
 
 [13. 罗马数字转整数](https://leetcode.cn/problems/roman-to-integer/description/?envType=problem-list-v2&envId=hash-table) : [L13_romanToInt](L13_romanToInt)
+
+[17. 电话号码的字母组合](https://leetcode.cn/problems/letter-combinations-of-a-phone-number/description/?envType=problem-list-v2&envId=hash-table) : 
+
+[30. 串联所有单词的子串](https://leetcode.cn/problems/substring-with-concatenation-of-all-words/description/?envType=problem-list-v2&envId=hash-table) : 

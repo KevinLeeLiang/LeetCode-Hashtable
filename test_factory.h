@@ -18,6 +18,8 @@
 #include "L3_lengthOfLongestSubstring/lengthOfLongestSubstring.h"
 #include "L12_intToRoman/L12_intToRoman.h"
 #include "L13_romanToInt/L13_romanToInt.h"
+#include "L17_letterCombinations/L17_letterCombinations.h"
+#include "L30_findSubstring/L30_findSubstring.h"
 class test_factory {
 private:
     void buildSolution(string title) {
@@ -33,6 +35,12 @@ private:
         } else if (title == "L13") {
             std::shared_ptr<L13_romanToInt> tmp3= std::make_shared<L13_romanToInt>();
             solution_ = std::dynamic_pointer_cast<LeetcodeHashtable>(tmp3);
+        } else if (title == "L17") {
+            std::shared_ptr<L17_letterCombinations> tmp4= std::make_shared<L17_letterCombinations>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeHashtable>(tmp4);
+        } else if (title == "L30") {
+            std::shared_ptr<L30_findSubstring> tmp5= std::make_shared<L30_findSubstring>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeHashtable>(tmp5);
         }
     }
 public:
