@@ -20,6 +20,8 @@
 #include "L13_romanToInt/L13_romanToInt.h"
 #include "L17_letterCombinations/L17_letterCombinations.h"
 #include "L30_findSubstring/L30_findSubstring.h"
+#include "L36_isValidSudoku/L36_isValidSudoku.h"
+#include "L37_solveSudoku/L37_solveSudoku.h"
 class test_factory {
 private:
     void buildSolution(string title) {
@@ -41,6 +43,12 @@ private:
         } else if (title == "L30") {
             std::shared_ptr<L30_findSubstring> tmp5= std::make_shared<L30_findSubstring>();
             solution_ = std::dynamic_pointer_cast<LeetcodeHashtable>(tmp5);
+        } else if (title == "L36") {
+            std::shared_ptr<L36_isValidSudoku> tmp6= std::make_shared<L36_isValidSudoku>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeHashtable>(tmp6);
+        } else if (title == "L37") {
+            std::shared_ptr<L37_solveSudoku> tmp7= std::make_shared<L37_solveSudoku>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeHashtable>(tmp7);
         }
     }
 public:

@@ -11,6 +11,10 @@ LeetCode哈希表算法题的解题仓库
 
 [13. 罗马数字转整数](https://leetcode.cn/problems/roman-to-integer/description/?envType=problem-list-v2&envId=hash-table) : [L13_romanToInt](L13_romanToInt)
 
-[17. 电话号码的字母组合](https://leetcode.cn/problems/letter-combinations-of-a-phone-number/description/?envType=problem-list-v2&envId=hash-table) : 
+[17. 电话号码的字母组合](https://leetcode.cn/problems/letter-combinations-of-a-phone-number/description/?envType=problem-list-v2&envId=hash-table) : [L17_letterCombinations](L17_letterCombinations)
 
-[30. 串联所有单词的子串](https://leetcode.cn/problems/substring-with-concatenation-of-all-words/description/?envType=problem-list-v2&envId=hash-table) : 
+[30. 串联所有单词的子串](https://leetcode.cn/problems/substring-with-concatenation-of-all-words/description/?envType=problem-list-v2&envId=hash-table) : [L30_findSubstring](L30_findSubstring)
+
+[36. 有效的数独](https://leetcode.cn/problems/valid-sudoku/description/?envType=problem-list-v2&envId=hash-table) : [L36_isValidSudoku](L36_isValidSudoku)
+
+[37. 解数独](https://leetcode.cn/problems/sudoku-solver/description/?envType=problem-list-v2&envId=hash-table) : [L37_solveSudoku](L37_solveSudoku)
