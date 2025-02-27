@@ -18,3 +18,7 @@ LeetCode哈希表算法题的解题仓库
 [36. 有效的数独](https://leetcode.cn/problems/valid-sudoku/description/?envType=problem-list-v2&envId=hash-table) : [L36_isValidSudoku](L36_isValidSudoku)
 
 [37. 解数独](https://leetcode.cn/problems/sudoku-solver/description/?envType=problem-list-v2&envId=hash-table) : [L37_solveSudoku](L37_solveSudoku)
+
+[41. 缺失的第一个正数](https://leetcode.cn/problems/first-missing-positive/description/?envType=problem-list-v2&envId=hash-table) : [L41_firstMissingPositive](L41_firstMissingPositive)
+
+[49. 字母异位词分组](https://leetcode.cn/problems/group-anagrams/description/?envType=problem-list-v2&envId=hash-table) : [L49_groupAnagrams](L49_groupAnagrams)
