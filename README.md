@@ -22,3 +22,7 @@ LeetCode哈希表算法题的解题仓库
 [41. 缺失的第一个正数](https://leetcode.cn/problems/first-missing-positive/description/?envType=problem-list-v2&envId=hash-table) : [L41_firstMissingPositive](L41_firstMissingPositive)
 
 [49. 字母异位词分组](https://leetcode.cn/problems/group-anagrams/description/?envType=problem-list-v2&envId=hash-table) : [L49_groupAnagrams](L49_groupAnagrams)
+
+[73. 矩阵置零](https://leetcode.cn/problems/set-matrix-zeroes/description/?envType=problem-list-v2&envId=hash-table): [L73_setZeroes](L73_setZeroes)
+
+[76. 最小覆盖子串](https://leetcode.cn/problems/minimum-window-substring/description/?envType=problem-list-v2&envId=hash-table) : [L76_minWindow](L76_minWindow)

@@ -25,6 +25,8 @@
 #include "L37_solveSudoku/L37_solveSudoku.h"
 #include "L41_firstMissingPositive/L41_firstMissingPositive.h"
 #include "L49_groupAnagrams/L49_groupAnagrams.h"
+#include "L73_setZeroes/L73_setZeros.h"
+#include "L76_minWindow/L76_minWindow.h"
 
 class test_factory {
 private:
@@ -59,8 +61,14 @@ private:
         } else if (title == "L49") {
             std::shared_ptr<L49_groupAnagrams> tmp = std::make_shared<L49_groupAnagrams>();
             solution_ = std::dynamic_pointer_cast<LeetcodeHashtable>(tmp);
+        } else if (title == "L73") {
+            std::shared_ptr<L73_setZeros> tmp = std::make_shared<L73_setZeros>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeHashtable>(tmp);
+        } else if (title == "L76") {
+            std::shared_ptr<L76_minWindow> tmp = std::make_shared<L76_minWindow>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeHashtable>(tmp);
         } else {
-            cout << "no such leetcode" << endl;
+            cout << "no such solution" << endl;
         }
     }
 
