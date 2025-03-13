@@ -27,6 +27,8 @@
 #include "L49_groupAnagrams/L49_groupAnagrams.h"
 #include "L73_setZeroes/L73_setZeros.h"
 #include "L76_minWindow/L76_minWindow.h"
+#include "L105_buildTree/L105_buildTree.h"
+#include "L106_buildTree/L106_buildTree.h"
 
 class test_factory {
 private:
@@ -67,8 +69,14 @@ private:
         } else if (title == "L76") {
             std::shared_ptr<L76_minWindow> tmp = std::make_shared<L76_minWindow>();
             solution_ = std::dynamic_pointer_cast<LeetcodeHashtable>(tmp);
+        } else if (title == "L105") {
+            std::shared_ptr<L105_buildTree> tmp = std::make_shared<L105_buildTree>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeHashtable>(tmp);
+        } else if (title == "L106") {
+            std::shared_ptr<L106_buildTree> tmp = std::make_shared<L106_buildTree>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeHashtable>(tmp);
         } else {
-            cout << "no such solution" << endl;
+            cout << "no solution" << endl;
         }
     }
 
