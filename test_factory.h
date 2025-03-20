@@ -29,6 +29,8 @@
 #include "L76_minWindow/L76_minWindow.h"
 #include "L105_buildTree/L105_buildTree.h"
 #include "L106_buildTree/L106_buildTree.h"
+#include "L126_findLadders/L126_findLadders.h"
+#include "L127_ladderLength/L127_ladderLength.h"
 
 class test_factory {
 private:
@@ -75,8 +77,12 @@ private:
         } else if (title == "L106") {
             std::shared_ptr<L106_buildTree> tmp = std::make_shared<L106_buildTree>();
             solution_ = std::dynamic_pointer_cast<LeetcodeHashtable>(tmp);
-        } else {
-            cout << "no solution" << endl;
+        } else if (title == "L126") {
+            std::shared_ptr<L126_findLadders> tmp = std::make_shared<L126_findLadders>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeHashtable>(tmp);
+        } else if (title == "L127") {
+            std::shared_ptr<L127_ladderLength> tmp = std::make_shared<L127_ladderLength>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeHashtable>(tmp);
         }
     }
 

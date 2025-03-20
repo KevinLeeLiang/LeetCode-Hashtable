@@ -26,3 +26,11 @@ LeetCode哈希表算法题的解题仓库
 [73. 矩阵置零](https://leetcode.cn/problems/set-matrix-zeroes/description/?envType=problem-list-v2&envId=hash-table): [L73_setZeroes](L73_setZeroes)
 
 [76. 最小覆盖子串](https://leetcode.cn/problems/minimum-window-substring/description/?envType=problem-list-v2&envId=hash-table) : [L76_minWindow](L76_minWindow)
+
+[105. 从前序与中序遍历序列构造二叉树](https://leetcode.cn/problems/construct-binary-tree-from-preorder-and-inorder-traversal/description/?envType=problem-list-v2&envId=hash-table) : [L105_buildTree](L105_buildTree)
+
+[106. 从中序与后序遍历序列构造二叉树](https://leetcode.cn/problems/construct-binary-tree-from-inorder-and-postorder-traversal/description/?envType=problem-list-v2&envId=hash-table) : [L106_buildTree](L106_buildTree)
+
+[126. 单词接龙 II](https://leetcode.cn/problems/word-ladder-ii/description/?envType=problem-list-v2&envId=hash-table) : [L126_findLadders](L126_findLadders)
+
+[127. 单词接龙](https://leetcode.cn/problems/word-ladder/description/?envType=problem-list-v2&envId=hash-table) : [L127_ladderLength](L127_ladderLength)
