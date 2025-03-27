@@ -31,6 +31,8 @@
 #include "L106_buildTree/L106_buildTree.h"
 #include "L126_findLadders/L126_findLadders.h"
 #include "L127_ladderLength/L127_ladderLength.h"
+#include "L128_longestConsecutive/L128_longestConsecutive.h"
+#include "L139_wordBreak/L139_wordBreak.h"
 
 class test_factory {
 private:
@@ -82,6 +84,12 @@ private:
             solution_ = std::dynamic_pointer_cast<LeetcodeHashtable>(tmp);
         } else if (title == "L127") {
             std::shared_ptr<L127_ladderLength> tmp = std::make_shared<L127_ladderLength>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeHashtable>(tmp);
+        } else if (title == "L128") {
+            std::shared_ptr<L128_longestConsecutive> tmp = std::make_shared<L128_longestConsecutive>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeHashtable>(tmp);
+        } else if (title == "L139") {
+            std::shared_ptr<L139_wordBreak> tmp = std::make_shared<L139_wordBreak>();
             solution_ = std::dynamic_pointer_cast<LeetcodeHashtable>(tmp);
         }
     }
