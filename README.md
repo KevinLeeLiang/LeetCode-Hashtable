@@ -34,3 +34,11 @@ LeetCode哈希表算法题的解题仓库
 [126. 单词接龙 II](https://leetcode.cn/problems/word-ladder-ii/description/?envType=problem-list-v2&envId=hash-table) : [L126_findLadders](L126_findLadders)
 
 [127. 单词接龙](https://leetcode.cn/problems/word-ladder/description/?envType=problem-list-v2&envId=hash-table) : [L127_ladderLength](L127_ladderLength)
+
+[128. 最长连续序列](https://leetcode.cn/problems/longest-consecutive-sequence/description/?envType=problem-list-v2&envId=hash-table) : [L128_longestConsecutive](L128_longestConsecutive)
+
+[139. 单词拆分](https://leetcode.cn/problems/word-break/description/?envType=problem-list-v2&envId=hash-table) :[L139_wordBreak](L139_wordBreak)
+
+[140. 单词拆分 II](https://leetcode.cn/problems/word-break-ii/description/?envType=problem-list-v2&envId=hash-table) : [L140_wordBreakII](L140_wordBreakII)
+
+[141. 环形链表](https://leetcode.cn/problems/linked-list-cycle/description/?envType=problem-list-v2&envId=hash-table) : [L141_hasCycle](L141_hasCycle)

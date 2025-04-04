@@ -33,6 +33,8 @@
 #include "L127_ladderLength/L127_ladderLength.h"
 #include "L128_longestConsecutive/L128_longestConsecutive.h"
 #include "L139_wordBreak/L139_wordBreak.h"
+#include "L140_wordBreak/L140_wordBreak.h"
+#include "L141_hasCycle/L141_hasCycle.h"
 
 class test_factory {
 private:
@@ -91,6 +93,14 @@ private:
         } else if (title == "L139") {
             std::shared_ptr<L139_wordBreak> tmp = std::make_shared<L139_wordBreak>();
             solution_ = std::dynamic_pointer_cast<LeetcodeHashtable>(tmp);
+        } else if (title == "L140") {
+            std::shared_ptr<L140_wordBreak> tmp = std::make_shared<L140_wordBreak>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeHashtable>(tmp);
+        } else if (title == "L141") {
+            std::shared_ptr<L141_hasCycle> tmp = std::make_shared<L141_hasCycle>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeHashtable>(tmp);
+        } else {
+            cout << "no solution" << endl;
         }
     }
 

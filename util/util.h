@@ -216,4 +216,30 @@ void print_vector_vector(vector<vector<T>> &vecs) {
     cout << endl;
     cout << "__________" << endl;
 }
+
+inline ListNode* createLinkNode(vector<int> list_vals, int pos) {
+    if (list_vals.size() == 0)
+        return nullptr;
+    ListNode *head = new ListNode(list_vals[0]);
+    ListNode *p = head;
+    ListNode *q;
+    if (pos == 0) {
+        q = p;
+    }
+    for (int i = 1; i < list_vals.size(); ++i) {
+        p->next = new ListNode(list_vals[i]);
+        p = p->next;
+        if (i == pos) {
+            q = p;
+        }
+        if (i == list_vals.size() - 1) {
+            p->next = nullptr;
+        }
+    }
+    if (pos != -1) {
+        p->next = q;
+    }
+    return head;
+}
+
 #endif //LEETCODE_HASHTABLE_UTIL_H
