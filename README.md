@@ -42,3 +42,7 @@ LeetCode哈希表算法题的解题仓库
 [140. 单词拆分 II](https://leetcode.cn/problems/word-break-ii/description/?envType=problem-list-v2&envId=hash-table) : [L140_wordBreakII](L140_wordBreakII)
 
 [141. 环形链表](https://leetcode.cn/problems/linked-list-cycle/description/?envType=problem-list-v2&envId=hash-table) : [L141_hasCycle](L141_hasCycle)
+
+[142. 环形链表 II](https://leetcode.cn/problems/linked-list-cycle-ii/description/?envType=problem-list-v2&envId=hash-table) : [L142_detectCycle](L142_detectCycle)
+
+[146. LRU 缓存机制](https://leetcode.cn/problems/lru-cache/description/?envType=problem-list-v2&envId=hash-table) : [L146_LRUCache](L146_LRUCache)

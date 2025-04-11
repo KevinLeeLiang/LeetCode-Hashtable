@@ -228,10 +228,10 @@ inline ListNode* createLinkNode(vector<int> list_vals, int pos) {
     }
     for (int i = 1; i < list_vals.size(); ++i) {
         p->next = new ListNode(list_vals[i]);
-        p = p->next;
         if (i == pos) {
             q = p;
         }
+        p = p->next;
         if (i == list_vals.size() - 1) {
             p->next = nullptr;
         }
@@ -240,6 +240,6 @@ inline ListNode* createLinkNode(vector<int> list_vals, int pos) {
         p->next = q;
     }
     return head;
-}
+};
 
 #endif //LEETCODE_HASHTABLE_UTIL_H

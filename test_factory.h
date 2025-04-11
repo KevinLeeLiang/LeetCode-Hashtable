@@ -35,6 +35,8 @@
 #include "L139_wordBreak/L139_wordBreak.h"
 #include "L140_wordBreak/L140_wordBreak.h"
 #include "L141_hasCycle/L141_hasCycle.h"
+#include "L142_detectCycle/L142_detectCycle.h"
+#include "L146_LRUCache/L146_LRUCache.h"
 
 class test_factory {
 private:
@@ -99,8 +101,12 @@ private:
         } else if (title == "L141") {
             std::shared_ptr<L141_hasCycle> tmp = std::make_shared<L141_hasCycle>();
             solution_ = std::dynamic_pointer_cast<LeetcodeHashtable>(tmp);
-        } else {
-            cout << "no solution" << endl;
+        } else if (title == "L142") {
+            std::shared_ptr<L142_detectCycle> tmp = std::make_shared<L142_detectCycle>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeHashtable>(tmp);
+        } else if (title == "L146") {
+            std::shared_ptr<L146_LRUCache> tmp = std::make_shared<L146_LRUCache>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeHashtable>(tmp);
         }
     }
 
