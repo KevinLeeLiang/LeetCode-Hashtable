@@ -37,6 +37,8 @@
 #include "L141_hasCycle/L141_hasCycle.h"
 #include "L142_detectCycle/L142_detectCycle.h"
 #include "L146_LRUCache/L146_LRUCache.h"
+#include "L149_maxPoints/L149_maxPoints.h"
+#include "L160_getIntersectionNode/L160_getIntersectionNode.h"
 
 class test_factory {
 private:
@@ -107,6 +109,15 @@ private:
         } else if (title == "L146") {
             std::shared_ptr<L146_LRUCache> tmp = std::make_shared<L146_LRUCache>();
             solution_ = std::dynamic_pointer_cast<LeetcodeHashtable>(tmp);
+        } else if (title == "L149") {
+            std::shared_ptr<L149_maxPoints> tmp = std::make_shared<L149_maxPoints>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeHashtable>(tmp);
+        } else if (title == "L160") {
+            std::shared_ptr<L160_getIntersectionNode> tmp = std::make_shared<L160_getIntersectionNode>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeHashtable>(tmp);
+        } else {
+            cout << "no solution" << endl;
+            return;
         }
     }
 

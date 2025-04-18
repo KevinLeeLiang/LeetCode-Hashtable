@@ -46,3 +46,7 @@ LeetCode哈希表算法题的解题仓库
 [142. 环形链表 II](https://leetcode.cn/problems/linked-list-cycle-ii/description/?envType=problem-list-v2&envId=hash-table) : [L142_detectCycle](L142_detectCycle)
 
 [146. LRU 缓存机制](https://leetcode.cn/problems/lru-cache/description/?envType=problem-list-v2&envId=hash-table) : [L146_LRUCache](L146_LRUCache)
+
+[149. 直线上最多的点数](https://leetcode.cn/problems/max-points-on-a-line/description/?envType=problem-list-v2&envId=hash-table) : [L149_maxPoints](L149_maxPoints)
+
+[160. 相交链表](https://leetcode.cn/problems/intersection-of-two-linked-lists/description/?envType=problem-list-v2&envId=hash-table) : [L160_getIntersectionNode](L160_getIntersectionNode)
