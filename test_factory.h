@@ -39,6 +39,8 @@
 #include "L146_LRUCache/L146_LRUCache.h"
 #include "L149_maxPoints/L149_maxPoints.h"
 #include "L160_getIntersectionNode/L160_getIntersectionNode.h"
+#include "L166_fractionToDecimal/L166_fractionToDecimal.h"
+#include "L169_majorityElement/L169_majorityElement.h"
 
 class test_factory {
 private:
@@ -115,9 +117,12 @@ private:
         } else if (title == "L160") {
             std::shared_ptr<L160_getIntersectionNode> tmp = std::make_shared<L160_getIntersectionNode>();
             solution_ = std::dynamic_pointer_cast<LeetcodeHashtable>(tmp);
-        } else {
-            cout << "no solution" << endl;
-            return;
+        } else if (title == "L166") {
+            std::shared_ptr<L166_fractionToDecimal> tmp = std::make_shared<L166_fractionToDecimal>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeHashtable>(tmp);
+        } else if (title == "L169") {
+            std::shared_ptr<L169_majorityElement> tmp = std::make_shared<L169_majorityElement>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeHashtable>(tmp);
         }
     }
 

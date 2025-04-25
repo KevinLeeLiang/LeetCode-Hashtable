@@ -50,3 +50,7 @@ LeetCode哈希表算法题的解题仓库
 [149. 直线上最多的点数](https://leetcode.cn/problems/max-points-on-a-line/description/?envType=problem-list-v2&envId=hash-table) : [L149_maxPoints](L149_maxPoints)
 
 [160. 相交链表](https://leetcode.cn/problems/intersection-of-two-linked-lists/description/?envType=problem-list-v2&envId=hash-table) : [L160_getIntersectionNode](L160_getIntersectionNode)
+
+[166. 分数到小数](https://leetcode.cn/problems/fraction-to-recurring-decimal/description/?envType=problem-list-v2&envId=hash-table) : [L166_fractionToDecimal](L166_fractionToDecimal)
+
+[169. 多数元素](https://leetcode.cn/problems/majority-element/description/?envType=problem-list-v2&envId=hash-table) : [L169_majorityElement](L169_majorityElement)
