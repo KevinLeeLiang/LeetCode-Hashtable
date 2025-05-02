@@ -54,3 +54,7 @@ LeetCode哈希表算法题的解题仓库
 [166. 分数到小数](https://leetcode.cn/problems/fraction-to-recurring-decimal/description/?envType=problem-list-v2&envId=hash-table) : [L166_fractionToDecimal](L166_fractionToDecimal)
 
 [169. 多数元素](https://leetcode.cn/problems/majority-element/description/?envType=problem-list-v2&envId=hash-table) : [L169_majorityElement](L169_majorityElement)
+
+[187. 重复的DNA序列](https://leetcode.cn/problems/repeated-dna-sequences/description/?envType=problem-list-v2&envId=hash-table) : [L187_findRepeatedDnaSequences](L187_findRepeatedDnaSequences)
+
+[202. 快乐数](https://leetcode.cn/problems/happy-number/description/?envType=problem-list-v2&envId=hash-table) : [L202_isHappy](L202_isHappy)
