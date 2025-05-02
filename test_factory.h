@@ -41,6 +41,7 @@
 #include "L160_getIntersectionNode/L160_getIntersectionNode.h"
 #include "L166_fractionToDecimal/L166_fractionToDecimal.h"
 #include "L169_majorityElement/L169_majorityElement.h"
+#include "L187_findRepeatedDnaSequences/L187_findRepeatedDnaSequences.h"
 
 class test_factory {
 private:
@@ -122,6 +123,9 @@ private:
             solution_ = std::dynamic_pointer_cast<LeetcodeHashtable>(tmp);
         } else if (title == "L169") {
             std::shared_ptr<L169_majorityElement> tmp = std::make_shared<L169_majorityElement>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeHashtable>(tmp);
+        } else if (title == "L187") {
+            std::shared_ptr<L187_findRepeatedDnaSequences> tmp = std::make_shared<L187_findRepeatedDnaSequences>();
             solution_ = std::dynamic_pointer_cast<LeetcodeHashtable>(tmp);
         }
     }
