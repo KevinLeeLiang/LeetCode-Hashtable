@@ -58,3 +58,7 @@ LeetCode哈希表算法题的解题仓库
 [187. 重复的DNA序列](https://leetcode.cn/problems/repeated-dna-sequences/description/?envType=problem-list-v2&envId=hash-table) : [L187_findRepeatedDnaSequences](L187_findRepeatedDnaSequences)
 
 [202. 快乐数](https://leetcode.cn/problems/happy-number/description/?envType=problem-list-v2&envId=hash-table) : [L202_isHappy](L202_isHappy)
+
+[205. 同构字符串](https://leetcode.cn/problems/isomorphic-strings/description/?envType=problem-list-v2&envId=hash-table) : [L205_isIsomorphic](L205_isIsomorphic)
+
+[208. 实现 Trie (前缀树)](https://leetcode.cn/problems/implement-trie-prefix-tree/description/?envType=problem-list-v2&envId=hash-table) : [L208_Trie](L208_Trie)

@@ -42,6 +42,8 @@
 #include "L166_fractionToDecimal/L166_fractionToDecimal.h"
 #include "L169_majorityElement/L169_majorityElement.h"
 #include "L187_findRepeatedDnaSequences/L187_findRepeatedDnaSequences.h"
+#include "L205_isIsomorphic/L205_isIsomorphic.h"
+#include "L208_Trie/L208_Trie.h"
 
 class test_factory {
 private:
@@ -126,6 +128,12 @@ private:
             solution_ = std::dynamic_pointer_cast<LeetcodeHashtable>(tmp);
         } else if (title == "L187") {
             std::shared_ptr<L187_findRepeatedDnaSequences> tmp = std::make_shared<L187_findRepeatedDnaSequences>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeHashtable>(tmp);
+        } else if (title == "L205") {
+            std::shared_ptr<L205_isIsomorphic> tmp = std::make_shared<L205_isIsomorphic>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeHashtable>(tmp);
+        } else if (title == "L208") {
+            std::shared_ptr<L208_Trie> tmp = std::make_shared<L208_Trie>();
             solution_ = std::dynamic_pointer_cast<LeetcodeHashtable>(tmp);
         }
     }
