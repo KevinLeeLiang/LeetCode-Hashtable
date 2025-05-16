@@ -44,6 +44,8 @@
 #include "L187_findRepeatedDnaSequences/L187_findRepeatedDnaSequences.h"
 #include "L205_isIsomorphic/L205_isIsomorphic.h"
 #include "L208_Trie/L208_Trie.h"
+#include "L217_containsDuplicate/L217_containsDuplicate.h"
+#include "L219_containsNearbyDuplicate/L219_containsNearbyDuplicate.h"
 
 class test_factory {
 private:
@@ -134,6 +136,12 @@ private:
             solution_ = std::dynamic_pointer_cast<LeetcodeHashtable>(tmp);
         } else if (title == "L208") {
             std::shared_ptr<L208_Trie> tmp = std::make_shared<L208_Trie>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeHashtable>(tmp);
+        } else if (title == "L217") {
+            std::shared_ptr<L217_containsDuplicate> tmp = std::make_shared<L217_containsDuplicate>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeHashtable>(tmp);
+        } else if (title == "L219") {
+            std::shared_ptr<L219_containsNearbyDuplicate> tmp = std::make_shared<L219_containsNearbyDuplicate>();
             solution_ = std::dynamic_pointer_cast<LeetcodeHashtable>(tmp);
         }
     }

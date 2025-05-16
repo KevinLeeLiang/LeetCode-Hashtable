@@ -62,3 +62,7 @@ LeetCode哈希表算法题的解题仓库
 [205. 同构字符串](https://leetcode.cn/problems/isomorphic-strings/description/?envType=problem-list-v2&envId=hash-table) : [L205_isIsomorphic](L205_isIsomorphic)
 
 [208. 实现 Trie (前缀树)](https://leetcode.cn/problems/implement-trie-prefix-tree/description/?envType=problem-list-v2&envId=hash-table) : [L208_Trie](L208_Trie)
+
+[217. 存在重复元素](https://leetcode.cn/problems/contains-duplicate/description/?envType=problem-list-v2&envId=hash-table) : [L217_containsDuplicate](L217_containsDuplicate)
+
+[219. 存在重复元素 II](https://leetcode.cn/problems/contains-duplicate-ii/description/?envType=problem-list-v2&envId=hash-table) : [L219_containsNearbyDuplicate](L219_containsNearbyDuplicate)
