@@ -46,6 +46,7 @@
 #include "L208_Trie/L208_Trie.h"
 #include "L217_containsDuplicate/L217_containsDuplicate.h"
 #include "L219_containsNearbyDuplicate/L219_containsNearbyDuplicate.h"
+#include "L229_majorityElement/L229_majorityElement.h"
 
 class test_factory {
 private:
@@ -142,6 +143,9 @@ private:
             solution_ = std::dynamic_pointer_cast<LeetcodeHashtable>(tmp);
         } else if (title == "L219") {
             std::shared_ptr<L219_containsNearbyDuplicate> tmp = std::make_shared<L219_containsNearbyDuplicate>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeHashtable>(tmp);
+        } else if (title == "L229") {
+            std::shared_ptr<L229_majorityElement> tmp = std::make_shared<L229_majorityElement>();
             solution_ = std::dynamic_pointer_cast<LeetcodeHashtable>(tmp);
         }
     }
