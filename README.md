@@ -66,3 +66,7 @@ LeetCode哈希表算法题的解题仓库
 [217. 存在重复元素](https://leetcode.cn/problems/contains-duplicate/description/?envType=problem-list-v2&envId=hash-table) : [L217_containsDuplicate](L217_containsDuplicate)
 
 [219. 存在重复元素 II](https://leetcode.cn/problems/contains-duplicate-ii/description/?envType=problem-list-v2&envId=hash-table) : [L219_containsNearbyDuplicate](L219_containsNearbyDuplicate)
+
+[229. 多数元素 II](https://leetcode.cn/problems/majority-element-ii/description/?envType=problem-list-v2&envId=hash-table) : [L229_majorityElement](L229_majorityElement)
+
+[242. 有效的字母异位词](https://leetcode.cn/problems/valid-anagram/description/?envType=problem-list-v2&envId=hash-table) : [L242_isAnagram](L242_isAnagram)
