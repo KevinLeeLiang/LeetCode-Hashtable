@@ -70,3 +70,7 @@ LeetCode哈希表算法题的解题仓库
 [229. 多数元素 II](https://leetcode.cn/problems/majority-element-ii/description/?envType=problem-list-v2&envId=hash-table) : [L229_majorityElement](L229_majorityElement)
 
 [242. 有效的字母异位词](https://leetcode.cn/problems/valid-anagram/description/?envType=problem-list-v2&envId=hash-table) : [L242_isAnagram](L242_isAnagram)
+
+[264. 丑数 II](https://leetcode.cn/problems/ugly-number-ii/description/?envType=problem-list-v2&envId=hash-table) : [L264_nthUglyNumber](L264_nthUglyNumber)
+
+[268. 丢失的数字](https://leetcode.cn/problems/missing-number/description/?envType=problem-list-v2&envId=hash-table) : [L268_missingNumber](L268_missingNumber)

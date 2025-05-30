@@ -47,6 +47,9 @@
 #include "L217_containsDuplicate/L217_containsDuplicate.h"
 #include "L219_containsNearbyDuplicate/L219_containsNearbyDuplicate.h"
 #include "L229_majorityElement/L229_majorityElement.h"
+#include "L242_isAnagram/L242_isAnagram.h"
+#include "L264_nthUglyNumber/L264_nthUglyNumber.h"
+#include "L268_missingNumber/L268_missingNumber.h"
 
 class test_factory {
 private:
@@ -146,6 +149,15 @@ private:
             solution_ = std::dynamic_pointer_cast<LeetcodeHashtable>(tmp);
         } else if (title == "L229") {
             std::shared_ptr<L229_majorityElement> tmp = std::make_shared<L229_majorityElement>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeHashtable>(tmp);
+        } else if (title == "L242") {
+            std::shared_ptr<L242_isAnagram> tmp = std::make_shared<L242_isAnagram>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeHashtable>(tmp);
+        } else if (title == "L264") {
+            std::shared_ptr<L264_nthUglyNumber> tmp = std::make_shared<L264_nthUglyNumber>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeHashtable>(tmp);
+        } else if (title == "L268") {
+            std::shared_ptr<L268_missingNumber> tmp = std::make_shared<L268_missingNumber>();
             solution_ = std::dynamic_pointer_cast<LeetcodeHashtable>(tmp);
         }
     }
