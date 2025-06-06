@@ -74,3 +74,7 @@ LeetCode哈希表算法题的解题仓库
 [264. 丑数 II](https://leetcode.cn/problems/ugly-number-ii/description/?envType=problem-list-v2&envId=hash-table) : [L264_nthUglyNumber](L264_nthUglyNumber)
 
 [268. 丢失的数字](https://leetcode.cn/problems/missing-number/description/?envType=problem-list-v2&envId=hash-table) : [L268_missingNumber](L268_missingNumber)
+
+[290. 单词规律](https://leetcode.cn/problems/word-pattern/description/?envType=problem-list-v2&envId=hash-table) : [L290_wordPattern](L290_wordPattern)
+
+[299. 猜数字游戏](https://leetcode.cn/problems/bulls-and-cows/description/?envType=problem-list-v2&envId=hash-table) : [L299_getHint](L299_getHint)

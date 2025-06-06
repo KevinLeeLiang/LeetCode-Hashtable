@@ -50,6 +50,8 @@
 #include "L242_isAnagram/L242_isAnagram.h"
 #include "L264_nthUglyNumber/L264_nthUglyNumber.h"
 #include "L268_missingNumber/L268_missingNumber.h"
+#include "L290_wordPattern/L290_wordPattern.h"
+#include "L299_getHint/L299_getHint.h"
 
 class test_factory {
 private:
@@ -158,6 +160,12 @@ private:
             solution_ = std::dynamic_pointer_cast<LeetcodeHashtable>(tmp);
         } else if (title == "L268") {
             std::shared_ptr<L268_missingNumber> tmp = std::make_shared<L268_missingNumber>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeHashtable>(tmp);
+        } else if (title == "L290") {
+            std::shared_ptr<L290_wordPattern> tmp = std::make_shared<L290_wordPattern>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeHashtable>(tmp);
+        } else if (title == "L299") {
+            std::shared_ptr<L299_getHint> tmp = std::make_shared<L299_getHint>();
             solution_ = std::dynamic_pointer_cast<LeetcodeHashtable>(tmp);
         }
     }
