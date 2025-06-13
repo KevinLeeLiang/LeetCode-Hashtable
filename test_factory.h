@@ -52,6 +52,8 @@
 #include "L268_missingNumber/L268_missingNumber.h"
 #include "L290_wordPattern/L290_wordPattern.h"
 #include "L299_getHint/L299_getHint.h"
+#include "L336_palindromePairs/L336_palindromePairs.h"
+#include "L347_topKFrequent/L347_topKFrequent.h"
 
 class test_factory {
 private:
@@ -166,6 +168,12 @@ private:
             solution_ = std::dynamic_pointer_cast<LeetcodeHashtable>(tmp);
         } else if (title == "L299") {
             std::shared_ptr<L299_getHint> tmp = std::make_shared<L299_getHint>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeHashtable>(tmp);
+        } else if (title == "L336") {
+            std::shared_ptr<L336_palindromePairs> tmp = std::make_shared<L336_palindromePairs>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeHashtable>(tmp);
+        } else if (title == "L347") {
+            std::shared_ptr<L347_topKFrequent> tmp = std::make_shared<L347_topKFrequent>();
             solution_ = std::dynamic_pointer_cast<LeetcodeHashtable>(tmp);
         }
     }

@@ -78,3 +78,7 @@ LeetCode哈希表算法题的解题仓库
 [290. 单词规律](https://leetcode.cn/problems/word-pattern/description/?envType=problem-list-v2&envId=hash-table) : [L290_wordPattern](L290_wordPattern)
 
 [299. 猜数字游戏](https://leetcode.cn/problems/bulls-and-cows/description/?envType=problem-list-v2&envId=hash-table) : [L299_getHint](L299_getHint)
+
+[336. 回文路径](https://leetcode.cn/problems/palindrome-paths-in-a-tree/description/?envType=problem-list-v2&envId=hash-table) : [L336_palindromePairs](L336_palindromePairs)
+
+[347. 前 K 个高频元素](https://leetcode.cn/problems/top-k-frequent-elements/description/?envType=problem-list-v2&envId=hash-table) : [L347_topKFrequent](L347_topKFrequent)
