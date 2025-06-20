@@ -82,3 +82,7 @@ LeetCode哈希表算法题的解题仓库
 [336. 回文路径](https://leetcode.cn/problems/palindrome-paths-in-a-tree/description/?envType=problem-list-v2&envId=hash-table) : [L336_palindromePairs](L336_palindromePairs)
 
 [347. 前 K 个高频元素](https://leetcode.cn/problems/top-k-frequent-elements/description/?envType=problem-list-v2&envId=hash-table) : [L347_topKFrequent](L347_topKFrequent)
+
+[349. 两个数组的交集](https://leetcode.cn/problems/intersection-of-two-arrays/description/?envType=problem-list-v2&envId=hash-table) : [L349_intersection](L349_intersection)
+
+[350. 两个数组的交集 II](https://leetcode.cn/problems/intersection-of-two-arrays-ii/description/?envType=problem-list-v2&envId=hash-table) : [L350_intersect](L350_intersect)

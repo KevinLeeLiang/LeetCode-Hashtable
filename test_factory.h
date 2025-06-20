@@ -54,6 +54,8 @@
 #include "L299_getHint/L299_getHint.h"
 #include "L336_palindromePairs/L336_palindromePairs.h"
 #include "L347_topKFrequent/L347_topKFrequent.h"
+#include "L349_intersection/L349_intersection.h"
+#include "L350_intersect/L350_intersect.h"
 
 class test_factory {
 private:
@@ -174,6 +176,12 @@ private:
             solution_ = std::dynamic_pointer_cast<LeetcodeHashtable>(tmp);
         } else if (title == "L347") {
             std::shared_ptr<L347_topKFrequent> tmp = std::make_shared<L347_topKFrequent>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeHashtable>(tmp);
+        } else if (title == "L349") {
+            std::shared_ptr<L349_intersection> tmp = std::make_shared<L349_intersection>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeHashtable>(tmp);
+        } else if (title == "L350") {
+            std::shared_ptr<L350_intersect> tmp = std::make_shared<L350_intersect>();
             solution_ = std::dynamic_pointer_cast<LeetcodeHashtable>(tmp);
         }
     }
