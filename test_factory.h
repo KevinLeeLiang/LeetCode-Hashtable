@@ -56,6 +56,8 @@
 #include "L347_topKFrequent/L347_topKFrequent.h"
 #include "L349_intersection/L349_intersection.h"
 #include "L350_intersect/L350_intersect.h"
+#include "L355_Twitter/L355_Twitter.h"
+#include "L380_RandomizedSet/L380_RandomizedSet.h"
 
 class test_factory {
 private:
@@ -182,6 +184,12 @@ private:
             solution_ = std::dynamic_pointer_cast<LeetcodeHashtable>(tmp);
         } else if (title == "L350") {
             std::shared_ptr<L350_intersect> tmp = std::make_shared<L350_intersect>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeHashtable>(tmp);
+        } else if (title == "L355") {
+            std::shared_ptr<L355_Twitter> tmp = std::make_shared<L355_Twitter>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeHashtable>(tmp);
+        } else if (title == "L380") {
+            std::shared_ptr<L380_RandomizedSet> tmp = std::make_shared<L380_RandomizedSet>();
             solution_ = std::dynamic_pointer_cast<LeetcodeHashtable>(tmp);
         }
     }

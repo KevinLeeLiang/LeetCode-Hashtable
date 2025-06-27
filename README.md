@@ -86,3 +86,7 @@ LeetCode哈希表算法题的解题仓库
 [349. 两个数组的交集](https://leetcode.cn/problems/intersection-of-two-arrays/description/?envType=problem-list-v2&envId=hash-table) : [L349_intersection](L349_intersection)
 
 [350. 两个数组的交集 II](https://leetcode.cn/problems/intersection-of-two-arrays-ii/description/?envType=problem-list-v2&envId=hash-table) : [L350_intersect](L350_intersect)
+
+[355. 设计推特](https://leetcode.cn/problems/design-twitter/description/?envType=problem-list-v2&envId=hash-table) : [L355_Twitter](L355_Twitter)
+
+[380. . O(1) 时间插入、删除和获取随机元素](https://leetcode.cn/problems/insert-delete-getrandom-o1/description/?envType=problem-list-v2&envId=hash-table) : [L380_RandomizedSet](L380_RandomizedSet)
