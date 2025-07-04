@@ -89,4 +89,8 @@ LeetCode哈希表算法题的解题仓库
 
 [355. 设计推特](https://leetcode.cn/problems/design-twitter/description/?envType=problem-list-v2&envId=hash-table) : [L355_Twitter](L355_Twitter)
 
-[380. . O(1) 时间插入、删除和获取随机元素](https://leetcode.cn/problems/insert-delete-getrandom-o1/description/?envType=problem-list-v2&envId=hash-table) : [L380_RandomizedSet](L380_RandomizedSet)
+[380. O(1) 时间插入、删除和获取随机元素](https://leetcode.cn/problems/insert-delete-getrandom-o1/description/?envType=problem-list-v2&envId=hash-table) : [L380_RandomizedSet](L380_RandomizedSet)
+
+[381. O(1) 时间插入，删除和获取随机元素 - 允许重复](https://leetcode.cn/problems/insert-delete-getrandom-o1-duplicates-allowed/description/?envType=problem-list-v2&envId=hash-table) : [L381_RandomizedCollection](L381_RandomizedCollection)
+
+[383. 赎金信](https://leetcode.cn/problems/ransom-note/description/?envType=problem-list-v2&envId=hash-table) : [L383_canConstruct](L383_canConstruct)

@@ -58,6 +58,8 @@
 #include "L350_intersect/L350_intersect.h"
 #include "L355_Twitter/L355_Twitter.h"
 #include "L380_RandomizedSet/L380_RandomizedSet.h"
+#include "L381_RandomizedCollection/L381_RandomizedCollection.h"
+#include "L383_canConstruct/L383_canConstruct.h"
 
 class test_factory {
 private:
@@ -190,6 +192,12 @@ private:
             solution_ = std::dynamic_pointer_cast<LeetcodeHashtable>(tmp);
         } else if (title == "L380") {
             std::shared_ptr<L380_RandomizedSet> tmp = std::make_shared<L380_RandomizedSet>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeHashtable>(tmp);
+        } else if (title == "L381") {
+            std::shared_ptr<L381_RandomizedCollection> tmp = std::make_shared<L381_RandomizedCollection>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeHashtable>(tmp);
+        } else if (title == "L383") {
+            std::shared_ptr<L383_canConstruct> tmp = std::make_shared<L383_canConstruct>();
             solution_ = std::dynamic_pointer_cast<LeetcodeHashtable>(tmp);
         }
     }
