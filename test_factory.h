@@ -60,6 +60,7 @@
 #include "L380_RandomizedSet/L380_RandomizedSet.h"
 #include "L381_RandomizedCollection/L381_RandomizedCollection.h"
 #include "L383_canConstruct/L383_canConstruct.h"
+#include "L387_firstUniqChar/L387_firstUniqChar.h"
 
 class test_factory {
 private:
@@ -198,6 +199,9 @@ private:
             solution_ = std::dynamic_pointer_cast<LeetcodeHashtable>(tmp);
         } else if (title == "L383") {
             std::shared_ptr<L383_canConstruct> tmp = std::make_shared<L383_canConstruct>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeHashtable>(tmp);
+        } else if (title == "L387") {
+            std::shared_ptr<L387_firstUniqChar> tmp = std::make_shared<L387_firstUniqChar>();
             solution_ = std::dynamic_pointer_cast<LeetcodeHashtable>(tmp);
         }
     }
