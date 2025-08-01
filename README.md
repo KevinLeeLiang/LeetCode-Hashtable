@@ -98,3 +98,5 @@ LeetCode哈希表算法题的解题仓库
 [387. 字符串中的第一个唯一字符](https://leetcode.cn/problems/first-unique-character-in-a-string/description/?envType=problem-list-v2&envId=hash-table) : [L387_firstUniqChar](L387_firstUniqChar)
 
 [389. 找不同](https://leetcode.cn/problems/find-the-difference/description/?envType=problem-list-v2&envId=hash-table) : [L389_findTheDifference](L389_findTheDifference)
+
+[391. 完美矩形](https://leetcode.cn/problems/perfect-rectangle/description/?envType=problem-list-v2&envId=hash-table) : [L391_isRectangleCover](L391_isRectangleCover)

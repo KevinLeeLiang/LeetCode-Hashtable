@@ -62,6 +62,7 @@
 #include "L383_canConstruct/L383_canConstruct.h"
 #include "L387_firstUniqChar/L387_firstUniqChar.h"
 #include "L389_findTheDifference/L389_findTheDifference.h"
+#include "L391_isRectangleCover/L391_isRectangleCover.h"
 
 class test_factory {
 private:
@@ -206,6 +207,9 @@ private:
             solution_ = std::dynamic_pointer_cast<LeetcodeHashtable>(tmp);
         } else if (title == "L389") {
             std::shared_ptr<L389_findTheDifference> tmp = std::make_shared<L389_findTheDifference>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeHashtable>(tmp);
+        } else if (title == "L391") {
+            std::shared_ptr<L391_isRectangleCover> tmp = std::make_shared<L391_isRectangleCover>();
             solution_ = std::dynamic_pointer_cast<LeetcodeHashtable>(tmp);
         }
     }
